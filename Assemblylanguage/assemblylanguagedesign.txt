@@ -1,0 +1,43 @@
+// starts off with the data (section.data)
+// user message: Please enter the first digit
+// length of message
+
+// than list the uniniialized data (section.bss)
+* num1 resb 2 
+* num2 resb 2
+* result resb 1
+
+// another message to ask for the second digit and then display result after sum ( section.text)
+// ask user: please enter the second digit
+// length of message
+
+// another message: the result is
+// length of message
+
+// global start
+
+// start
+// display message
+
+// read from the keyboard 
+// and store user input for the first number
+
+// display the second message
+// and store user input for the second number
+
+// display the result message
+
+// do these seperately for num1 and num2:
+// move num1 into eax register
+// subtract eax register by 0
+// do the same for num2 instead add num2 into ebx
+// this will convert num1 and num2 from ASCII to decimal
+
+// add num1 and num2 together (add eax and ebx) into eax
+// add eax by 0 to convert from decimal back to ASCII
+
+// store the result in "result"
+// print the result
+
+//exit
+
